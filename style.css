@@ -14,17 +14,6 @@ body {
     min-height: 100vh;
     background: #5E63BA;
 }
-nav{
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-}
-.nama {
-    font-weight: 700;
-    animation: jedagJedug .5s infinite;
-}
-
 .container {
     display: flex;
     width: 850px;
@@ -194,16 +183,5 @@ nav{
     }
     .game-modal button {
         padding: 10px 18px;
-    }
-}
-@keyframes jedagJedug {
-    0% {
-        font-size: 22px;
-    }
-    50% {
-        font-size: 28px;
-    }
-    100% {
-        font-size: 22px;
     }
 }
